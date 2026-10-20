@@ -23,7 +23,7 @@ public class Lanzador {
    //imprimir resultados finales en consola de manera limpia 
        System.out.println("\n SOLUCIONES DEL SISTEMA: \n");
        for(int i=0; i< soluciones.length; i++){
-           System.out.println("x" + (i + 1) + "=" + soluciones);
+           System.out.println("x" + (i + 1) + "=" + soluciones[i]);
        }
    
    } 
